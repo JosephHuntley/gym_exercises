@@ -2,6 +2,7 @@ body {
   font-family: "Josefin Sans";
   background-color: #fffafb;
 }
+
 * {
   padding: 0px;
   margin: 0px;
@@ -9,7 +10,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  width: 0px;
 }
 
 .right-arrow,
