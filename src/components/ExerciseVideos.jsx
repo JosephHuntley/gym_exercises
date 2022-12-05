@@ -32,7 +32,6 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
 						href={`https://youtube.com/watch?v=${item.video.videoId}`}
 						target='_blank'
 						rel='noreferrer'>
-						{console.log(item.video.thumbnails)}
 						<img
 							src={item.video.thumbnails[0].url}
 							alt={item.video.title}
